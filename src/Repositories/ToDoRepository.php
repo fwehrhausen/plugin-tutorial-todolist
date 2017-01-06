@@ -57,7 +57,7 @@ class ToDoRepository implements ToDoRepositoryContract
 
         $toDo = pluginApp(ToDo::class);
 
-        $toDo->task = $data['taskDescription'];
+        $toDo->taskDescription = $data['taskDescription'];
 
         $toDo->userId = $this->getCurrentContactId();
 
