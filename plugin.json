@@ -3,7 +3,7 @@
       "namespace":"ToDoList",
       "type":"template",
       "version":"1.0.1",
-      "license":"AGPL-3.0",
+      "license":"AGPL 3.0",
       "pluginIcon":"icon_plugin_xs.png",
       "price":"0",
       "description":"A simple To Do list that you can use to create tasks, mark tasks as done and delete tasks that are marked as done. If a customer is logged in to the online store, the customer will have a personal To Do list.",
