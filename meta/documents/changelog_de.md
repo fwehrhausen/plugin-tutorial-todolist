@@ -1,4 +1,14 @@
 # Release Notes für ToDoList
+
+## v1.0.2 (2017-01-30)
+
+### Hinzugefügt
+
+Deutsche Übersetzung des User Guides
+
+### Entfernt
+
+- `CHANGELOG.md` im root-Verzeichnis entfernt
  
 ## v1.0.1 (2017-01-11)
  
