@@ -1,5 +1,13 @@
 # Release Notes für ToDoList
 
+## v1.0.3 (2017-01-30)
+
+### Hinzugefügt
+
+- Deutsche Übersetzung der Beschreibung und Kurzbeschreibung in der `plugin.json`
+- `support_contact_de.md` hinzugefügt
+- `support_contact_en.md` hinzugefügt
+
 ## v1.0.2 (2017-01-30)
 
 ### Hinzugefügt
