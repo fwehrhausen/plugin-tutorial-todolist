@@ -1,11 +1,11 @@
-# Das ist die Überschrift deines User Guidese
+# Das ist die Überschrift deines User Guides
  
-Unter der Überschrift fügst du eine kurze Einleitung, die ein Plugin und den Funktionsumfang beschreibt, sowie die Hauptfunktionen verlinkt.
+Unter der Überschrift fügst du eine kurze Einleitung, die dein Plugin und den Funktionsumfang beschreibt, sowie die Hauptfunktionen verlinkt.
 
  
 ## Erste Schritte und Anforderungen
  
-Im ersten Kapitel befinden sich Informationen zur Einrichtung des Plugins. Weiterhin nennst du hier Plugins, die installiert werden müssen, weil sie von deinem Plugin benötigt werdne.
+Im ersten Kapitel befinden sich Informationen zur Einrichtung des Plugins. Weiterhin nennst du hier Plugins, die installiert werden müssen, weil sie von deinem Plugin benötigt werden.
  
 ## Plugin einrichten
  
@@ -24,7 +24,7 @@ Einzelne Features werden in Unterkapiteln beschrieben. Wenn du beschreiben möch
  
 ### Ein weiteres Feature
  
-Füge die Anweisungen hinzu. In diesem Fall möchten wir mehr als eine Einstellung beschreiben. Wir verwenden dafür eine Tablle unterhalb der Anweisungen.
+Füge die Anweisungen hinzu. In diesem Fall möchten wir mehr als eine Einstellung beschreiben. Wir verwenden dafür eine Tabelle unterhalb der Anweisungen.
 
 ![Bild hinzufügen](http://placehold.it/350x150?text=Bild+hinzufügen)
  
