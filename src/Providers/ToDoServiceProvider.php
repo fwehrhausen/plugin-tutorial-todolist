@@ -21,4 +21,17 @@ class ToDoServiceProvider extends ServiceProvider
         $this->getApplication()->register(ToDoRouteServiceProvider::class);
         $this->getApplication()->bind(ToDoRepositoryContract::class, ToDoRepository::class);
     }
+
+
+    public function boot(ReferenceContainer $referenceContainer)
+    {
+        // register reference types for logs
+        try
+        {
+            $referenceContainer->add([ 'toDoId' ]);
+        }
+        catch(ReferenceTypeException $ex)
+        {
+        }
+    }
 }
