@@ -7,6 +7,7 @@ use Plenty\Plugin\Http\Request;
 use Plenty\Plugin\Templates\Twig;
 use ToDoList\Contracts\ToDoRepositoryContract;
 use Plenty\Plugin\Log\Loggable;
+
 /**
  * Class ContentController
  * @package ToDoList\Controllers
@@ -38,8 +39,8 @@ class ContentController extends Controller
 
         $this
             ->getLogger('ContentController_createToDo')
-            ->referenceType('toDoId') // optional
-            ->referenceValue($newToDo->id) // optional
+            ->setReferenceType('toDoId') // optional
+            ->setReferenceValue($newToDo->id) // optional
             ->info('ToDoList::migration.createToDoInformation', ['userId' => $newToDo->userId ]);
 
         return json_encode($newToDo);
