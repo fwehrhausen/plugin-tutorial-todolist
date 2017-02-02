@@ -30,7 +30,7 @@ class ToDoServiceProvider extends ServiceProvider
         // register reference types for logs
         try
         {
-            $referenceContainer->add([ 'toDoId' ]);
+            $referenceContainer->add([ 'toDoId' => 'toDoId' ]);
         }
         catch(ReferenceTypeException $ex)
         {
