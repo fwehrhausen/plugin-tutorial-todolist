@@ -11,7 +11,7 @@ use Plenty\Modules\Plugin\DataBase\Contracts\Model;
  * @property string  $taskDescription
  * @property int     $userId
  * @property boolean $isDone
- * @property string  $createdAt
+ * @property int     $createdAt
  */
 class ToDo extends Model
 {
@@ -20,9 +20,9 @@ class ToDo extends Model
      */
     public $id = 0;
     public $taskDescription = '';
-    public $userId = '';
+    public $userId = 0;
     public $isDone = false;
-    public $createdAt = '';
+    public $createdAt = 0;
 
     /**
      * @return string
